@@ -1,0 +1,25 @@
+.contenedor{
+    display: grid;
+}
+.contenido{
+    padding: 2%;
+
+}
+.lado-izquierdo{
+    grid-column: 1 / 2;
+}
+.lado-derecho{
+    grid-column: 2 / 3;
+}
+
+body{
+    background-color: rgb(241, 214, 201);
+    font-family: Montserrat;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.especialidad{
+    font-weight: 300;
+}
