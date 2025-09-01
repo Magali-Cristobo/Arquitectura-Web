@@ -2,7 +2,8 @@
     display: grid;
 }
 .contenido{
-    padding: 4%;
+    padding: 3%;
+    width: 80%;
 
 }
 .lado-izquierdo{
@@ -15,6 +16,8 @@
 body{
     background-color: rgb(241, 214, 201);
     font-family: Montserrat;
+    display: flex;
+    justify-content: center;
 }
 a{
     text-decoration: none;
@@ -27,10 +30,15 @@ a{
     border-left: 1px solid black;
     height: auto;
     grid-column: 2 / 2;
+    padding: 10px;
 }
 .separadorHorizontal{
     border-top: 1px solid black;
     width: auto;
-    padding: 10px;
-    margin: 10px 0px 10px 0px;
+    padding: 5px;
+}
+.proyecto{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
 }
