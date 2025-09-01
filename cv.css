@@ -2,14 +2,14 @@
     display: grid;
 }
 .contenido{
-    padding: 2%;
+    padding: 4%;
 
 }
 .lado-izquierdo{
-    grid-column: 1 / 2;
+    grid-column: 1 / 1;
 }
 .lado-derecho{
-    grid-column: 2 / 3;
+    grid-column: 3 / 3;
 }
 
 body{
@@ -22,4 +22,15 @@ a{
 }
 .especialidad{
     font-weight: 300;
+}
+.separadorVertical{
+    border-left: 1px solid black;
+    height: auto;
+    grid-column: 2 / 2;
+}
+.separadorHorizontal{
+    border-top: 1px solid black;
+    width: auto;
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
 }
