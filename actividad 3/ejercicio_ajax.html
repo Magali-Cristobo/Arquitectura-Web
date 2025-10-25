@@ -33,7 +33,7 @@
         var xhr = new XMLHttpRequest();
         xhr.open("GET", url, true);
 
-        xhr.onreadystatechange =  actualizarCampos;
+        xhr.onreadystatechange =  actualizarCampos; 
         function actualizarCampos () {
           document.getElementById("estados").innerText = "Estado actual: " + xhr.readyState;
           if (xhr.readyState === 4) {
