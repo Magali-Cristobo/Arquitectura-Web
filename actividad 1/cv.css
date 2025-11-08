@@ -13,13 +13,15 @@
 }
 
 body{
+    color: #272727;
     background-color: rgb(252, 239, 224);
-    font-family: Montserrat;
+    font-family: Montserrat, sans-serif;
     display: flex;
     justify-content: center;
 }
 a{
     text-decoration: none;
+    background-color: #fcefe0;
     color: black;
 }
 .especialidad{
@@ -81,11 +83,9 @@ h4{
 .educacion{
     margin-bottom: 50px;
 }
-*{
-    color:#272727;
-}
 h4{
     color:#545454;
+    background-color: #fcefe0;
 }
 .item{
     margin-bottom: 30px;
